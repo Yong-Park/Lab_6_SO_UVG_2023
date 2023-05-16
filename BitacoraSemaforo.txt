@@ -1,204 +1,283 @@
-Iniciando programa
+Iniciando
 Creando threads
-Iniciando thread 51
-Iniciando thread 52
-Iniciando thread 53
-Iniciando thread 54
-Iniciando thread 55
-Iniciando thread 56
+Thread iniciado 0
+Thread iniciado 1
+Thread iniciado 3
+Thread iniciado 4
+Thread iniciado 5
+Thread iniciado 6
+Thread iniciado 7
+Thread iniciado 8
+Thread iniciado 2
 Esperando threads
-Iniciando thread 57
-Iniciando thread 58
-Iniciando thread 59
-Iniciando thread 60
-54 - Semaforo abierto con exito.
-53 - Semaforo abierto con exito.
-56 - Semaforo abierto con exito.
-52 - Semaforo abierto con exito.
-51 - Semaforo abierto con exito.
-Iniciando iteracion 1
-54 - (!) Recurso tomado
-58 - Semaforo abierto con exito.
-54 - Buenos dias! Recurso usado
-54 - Recurso devuelto :)
-Iniciando iteracion 2
-54 - (!) Recurso tomado
-54 - Buenos dias! Recurso usado
-54 - Recurso devuelto :)
-Iniciando iteracion 3
-54 - (!) Recurso tomado
-54 - Buenos dias! Recurso usado
-54 - Recurso devuelto :)
-Iniciando iteracion 4
-54 - (!) Recurso tomado
-54 - Buenos dias! Recurso usado
-54 - Recurso devuelto :)
-54 - Semaforo muerto
-Terminando thread 54
-Iniciando iteracion 1
-53 - (!) Recurso tomado
-Iniciando iteracion 1
-Iniciando iteracion 1
-Iniciando iteracion 1
-Iniciando iteracion 1
-53 - Buenos dias! Recurso usado
-53 - Recurso devuelto :)
-Iniciando iteracion 2
-53 - (!) Recurso tomado
-53 - Buenos dias! Recurso usado
-53 - Recurso devuelto :)
-Iniciando iteracion 3
-53 - (!) Recurso tomado
-53 - Buenos dias! Recurso usado
-53 - Recurso devuelto :)
-Iniciando iteracion 4
-53 - (!) Recurso tomado
-53 - Buenos dias! Recurso usado
-53 - Recurso devuelto :)
-53 - Semaforo muerto
-Terminando thread 53
-51 - (!) Recurso tomado
-51 - Buenos dias! Recurso usado
-58 - (!) Recurso tomado
-51 - Recurso devuelto :)
-Iniciando iteracion 2
-58 - Buenos dias! Recurso usado
-58 - Recurso devuelto :)
-Iniciando iteracion 2
-58 - (!) Recurso tomado
-58 - Buenos dias! Recurso usado
-58 - Recurso devuelto :)
-Iniciando iteracion 3
-58 - (!) Recurso tomado
-58 - Buenos dias! Recurso usado
-58 - Recurso devuelto :)
-Iniciando iteracion 4
-58 - (!) Recurso tomado
-58 - Buenos dias! Recurso usado
-58 - Recurso devuelto :)
-58 - Semaforo muerto
-Terminando thread 58
-52 - (!) Recurso tomado
-52 - Buenos dias! Recurso usado
-52 - Recurso devuelto :)
-Iniciando iteracion 2
-52 - (!) Recurso tomado
-52 - Buenos dias! Recurso usado
-52 - Recurso devuelto :)
-Iniciando iteracion 3
-52 - (!) Recurso tomado
-52 - Buenos dias! Recurso usado
-52 - Recurso devuelto :)
-Iniciando iteracion 4
-52 - (!) Recurso tomado
-52 - Buenos dias! Recurso usado
-51 - (!) Recurso tomado
-52 - Recurso devuelto :)
-52 - Semaforo muerto
-Terminando thread 52
-51 - Buenos dias! Recurso usado
-51 - Recurso devuelto :)
-Iniciando iteracion 3
-51 - (!) Recurso tomado
-51 - Buenos dias! Recurso usado
-51 - Recurso devuelto :)
-Iniciando iteracion 4
-51 - (!) Recurso tomado
-51 - Buenos dias! Recurso usado
-51 - Recurso devuelto :)
-51 - Semaforo muerto
-Terminando thread 51
-56 - (!) Recurso tomado
-56 - Buenos dias! Recurso usado
-56 - Recurso devuelto :)
-Iniciando iteracion 2
-56 - (!) Recurso tomado
-56 - Buenos dias! Recurso usado
-56 - Recurso devuelto :)
-Iniciando iteracion 3
-56 - (!) Recurso tomado
-56 - Buenos dias! Recurso usado
-56 - Recurso devuelto :)
-Iniciando iteracion 4
-56 - (!) Recurso tomado
-56 - Buenos dias! Recurso usado
-56 - Recurso devuelto :)
-56 - Semaforo muerto
-Terminando thread 56
-57 - Semaforo abierto con exito.
-60 - Semaforo abierto con exito.
-59 - Semaforo abierto con exito.
-Iniciando iteracion 1
-Iniciando iteracion 1
-57 - (!) Recurso tomado
-Iniciando iteracion 1
-55 - Semaforo abierto con exito.
-57 - Buenos dias! Recurso usado
-Iniciando iteracion 1
-55 - (!) Recurso tomado
-57 - Recurso devuelto :)
-Iniciando iteracion 2
-55 - Buenos dias! Recurso usado
-55 - Recurso devuelto :)
-Iniciando iteracion 2
-55 - (!) Recurso tomado
-55 - Buenos dias! Recurso usado
-55 - Recurso devuelto :)
-Iniciando iteracion 3
-55 - (!) Recurso tomado
-55 - Buenos dias! Recurso usado
-55 - Recurso devuelto :)
-Iniciando iteracion 4
-55 - (!) Recurso tomado
-55 - Buenos dias! Recurso usado
-55 - Recurso devuelto :)
-55 - Semaforo muerto
-Terminando thread 55
-59 - (!) Recurso tomado
-59 - Buenos dias! Recurso usado
-59 - Recurso devuelto :)
-Iniciando iteracion 2
-59 - (!) Recurso tomado
-59 - Buenos dias! Recurso usado
-59 - Recurso devuelto :)
-Iniciando iteracion 3
-60 - (!) Recurso tomado
-60 - Buenos dias! Recurso usado
-60 - Recurso devuelto :)
-Iniciando iteracion 2
-60 - (!) Recurso tomado
-60 - Buenos dias! Recurso usado
-60 - Recurso devuelto :)
-Iniciando iteracion 3
-60 - (!) Recurso tomado
-60 - Buenos dias! Recurso usado
-60 - Recurso devuelto :)
-Iniciando iteracion 4
-60 - (!) Recurso tomado
-60 - Buenos dias! Recurso usado
-60 - Recurso devuelto :)
-60 - Semaforo muerto
-Terminando thread 60
-57 - (!) Recurso tomado
-57 - Buenos dias! Recurso usado
-57 - Recurso devuelto :)
-Iniciando iteracion 3
-57 - (!) Recurso tomado
-57 - Buenos dias! Recurso usado
-57 - Recurso devuelto :)
-Iniciando iteracion 4
-57 - (!) Recurso tomado
-57 - Buenos dias! Recurso usado
-57 - Recurso devuelto :)
-57 - Semaforo muerto
-Terminando thread 57
-59 - (!) Recurso tomado
-59 - Buenos dias! Recurso usado
-59 - Recurso devuelto :)
-Iniciando iteracion 4
-59 - (!) Recurso tomado
-59 - Buenos dias! Recurso usado
-59 - Recurso devuelto :)
-59 - Semaforo muerto
-Terminando thread 59
-Fertig!
+Thread iniciado 9
+Semaforo 9 abierto.
+Iteracion 1
+Recurso 9 tomado
+Recurso 9 usado
+Recurso 9 devuelto
+Semaforo 9 abierto.
+Semaforo 3 abierto.
+Iteracion 1
+Recurso 3 tomado
+Semaforo 4 abierto.
+Iteracion 1
+Recurso 4 tomado
+Semaforo 0 abierto.
+Iteracion 1
+Recurso 0 tomado
+Iteracion 2
+Semaforo 7 abierto.
+Iteracion 1
+Recurso 7 tomado
+Recurso 9 tomado
+Recurso 4 usado
+Recurso 4 devuelto
+Semaforo 4 abierto.
+Iteracion 2
+Recurso 4 tomado
+Recurso 0 usado
+Recurso 0 devuelto
+Semaforo 0 abierto.
+Iteracion 2
+Recurso 0 tomado
+Recurso 3 usado
+Recurso 3 devuelto
+Semaforo 3 abierto.
+Iteracion 2
+Recurso 3 tomado
+Recurso 9 usado
+Recurso 9 devuelto
+Semaforo 9 abierto.
+Iteracion 3
+Recurso 9 tomado
+Recurso 7 usado
+Recurso 7 devuelto
+Semaforo 7 abierto.
+Iteracion 2
+Recurso 7 tomado
+Recurso 9 usado
+Recurso 9 devuelto
+Semaforo 9 abierto.
+Iteracion 4
+Recurso 9 tomado
+Recurso 3 usado
+Recurso 3 devuelto
+Semaforo 3 abierto.
+Iteracion 3
+Recurso 3 tomado
+Recurso 4 usado
+Recurso 4 devuelto
+Semaforo 4 abierto.
+Iteracion 3
+Recurso 4 tomado
+Recurso 0 usado
+Recurso 0 devuelto
+Semaforo 0 abierto.
+Iteracion 3
+Recurso 0 tomado
+Recurso 0 usado
+Recurso 0 devuelto
+Semaforo 0 abierto.
+Iteracion 4
+Recurso 0 tomado
+Recurso 9 usado
+Recurso 9 devuelto
+Semaforo 9 abierto.
+Iteracion 5
+Recurso 9 tomado
+Recurso 9 usado
+Recurso 9 devuelto
+Semaforo 9 apagado
+Terminando thread 9
+Semaforo 5 abierto.
+Iteracion 1
+Recurso 5 tomado
+Recurso 7 usado
+Recurso 7 devuelto
+Semaforo 7 abierto.
+Iteracion 3
+Recurso 7 tomado
+Recurso 7 usado
+Recurso 7 devuelto
+Semaforo 7 abierto.
+Iteracion 4
+Recurso 7 tomado
+Recurso 4 usado
+Recurso 4 devuelto
+Semaforo 4 abierto.
+Iteracion 4
+Recurso 4 tomado
+Recurso 4 usado
+Recurso 4 devuelto
+Semaforo 4 abierto.
+Iteracion 5
+Recurso 4 tomado
+Recurso 3 usado
+Recurso 3 devuelto
+Semaforo 3 abierto.
+Iteracion 4
+Recurso 3 tomado
+Recurso 5 usado
+Recurso 5 devuelto
+Semaforo 5 abierto.
+Iteracion 2
+Recurso 5 tomado
+Recurso 5 usado
+Recurso 5 devuelto
+Semaforo 5 abierto.
+Iteracion 3
+Recurso 5 tomado
+Recurso 3 usado
+Recurso 3 devuelto
+Semaforo 3 abierto.
+Iteracion 5
+Recurso 3 tomado
+Recurso 3 usado
+Recurso 3 devuelto
+Semaforo 3 apagado
+Terminando thread 3
+Semaforo 2 abierto.
+Iteracion 1
+Recurso 2 tomado
+Recurso 0 usado
+Recurso 0 devuelto
+Semaforo 0 abierto.
+Iteracion 5
+Recurso 0 tomado
+Recurso 5 usado
+Recurso 5 devuelto
+Semaforo 5 abierto.
+Iteracion 4
+Recurso 5 tomado
+Recurso 7 usado
+Recurso 7 devuelto
+Semaforo 7 abierto.
+Iteracion 5
+Recurso 7 tomado
+Recurso 4 usado
+Recurso 4 devuelto
+Semaforo 4 apagado
+Terminando thread 4
+Semaforo 6 abierto.
+Iteracion 1
+Recurso 6 tomado
+Recurso 7 usado
+Recurso 7 devuelto
+Semaforo 7 apagado
+Terminando thread 7
+Semaforo 1 abierto.
+Iteracion 1
+Recurso 1 tomado
+Recurso 1 usado
+Recurso 1 devuelto
+Semaforo 1 abierto.
+Iteracion 2
+Recurso 1 tomado
+Recurso 2 usado
+Recurso 2 devuelto
+Semaforo 2 abierto.
+Iteracion 2
+Recurso 2 tomado
+Recurso 0 usado
+Recurso 0 devuelto
+Semaforo 0 apagado
+Terminando thread 0
+Semaforo 8 abierto.
+Iteracion 1
+Recurso 8 tomado
+Recurso 5 usado
+Recurso 5 devuelto
+Semaforo 5 abierto.
+Iteracion 5
+Recurso 5 tomado
+Recurso 5 usado
+Recurso 5 devuelto
+Semaforo 5 apagado
+Terminando thread 5
+Recurso 1 usado
+Recurso 1 devuelto
+Semaforo 1 abierto.
+Iteracion 3
+Recurso 1 tomado
+Recurso 1 usado
+Recurso 1 devuelto
+Semaforo 1 abierto.
+Iteracion 4
+Recurso 1 tomado
+Recurso 2 usado
+Recurso 2 devuelto
+Semaforo 2 abierto.
+Iteracion 3
+Recurso 2 tomado
+Recurso 2 usado
+Recurso 2 devuelto
+Semaforo 2 abierto.
+Iteracion 4
+Recurso 2 tomado
+Recurso 2 usado
+Recurso 2 devuelto
+Semaforo 2 abierto.
+Iteracion 5
+Recurso 2 tomado
+Recurso 6 usado
+Recurso 6 devuelto
+Semaforo 6 abierto.
+Iteracion 2
+Recurso 6 tomado
+Recurso 6 usado
+Recurso 6 devuelto
+Semaforo 6 abierto.
+Iteracion 3
+Recurso 6 tomado
+Recurso 6 usado
+Recurso 6 devuelto
+Semaforo 6 abierto.
+Iteracion 4
+Recurso 6 tomado
+Recurso 8 usado
+Recurso 8 devuelto
+Semaforo 8 abierto.
+Iteracion 2
+Recurso 8 tomado
+Recurso 1 usado
+Recurso 1 devuelto
+Semaforo 1 abierto.
+Iteracion 5
+Recurso 1 tomado
+Recurso 2 usado
+Recurso 2 devuelto
+Semaforo 2 apagado
+Terminando thread 2
+Recurso 8 usado
+Recurso 8 devuelto
+Semaforo 8 abierto.
+Iteracion 3
+Recurso 8 tomado
+Recurso 6 usado
+Recurso 6 devuelto
+Semaforo 6 abierto.
+Iteracion 5
+Recurso 6 tomado
+Recurso 1 usado
+Recurso 1 devuelto
+Semaforo 1 apagado
+Terminando thread 1
+Recurso 6 usado
+Recurso 6 devuelto
+Semaforo 6 apagado
+Terminando thread 6
+Recurso 8 usado
+Recurso 8 devuelto
+Semaforo 8 abierto.
+Iteracion 4
+Recurso 8 tomado
+Recurso 8 usado
+Recurso 8 devuelto
+Semaforo 8 abierto.
+Iteracion 5
+Recurso 8 tomado
+Recurso 8 usado
+Recurso 8 devuelto
+Semaforo 8 apagado
+Terminando thread 8
