@@ -1,0 +1,560 @@
+Iniciando programa
+Creando threads
+Iniciando thread 98
+Iniciando iteracion 1
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+98 - (!) Recurso tomado
+Iniciando thread 99
+Iniciando iteracion 1
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+99 - (!) Recurso tomado
+Iniciando thread 100
+Iniciando iteracion 1
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+100 - (!) Recurso tomado
+99 - Buenos dias! Recurso usado
+Iniciando increase_count
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Iniciando thread 101
+Iniciando iteracion 1
+98 - Buenos dias! Recurso usado
+Iniciando increase_count
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 2
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+99 - (!) Recurso tomado
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 2
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+98 - (!) Recurso tomado
+100 - Buenos dias! Recurso usado
+Iniciando increase_count
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 2
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+100 - (!) Recurso tomado
+Iniciando thread 102
+Iniciando iteracion 1
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+102 - (!) Recurso tomado
+Iniciando thread 104
+Iniciando iteracion 1
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+104 - (!) Recurso tomado
+99 - Buenos dias! Recurso usado
+Iniciando increase_count
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Iniciando thread 103
+Iniciando iteracion 1
+Mutex liberado
+Mutex adquirido, entrando al monitor
+Terminando increase_count
+Iniciando iteracion 3
+Se consumiran 3 recursos
+Iniciando thread 105
+Se consumiran 3 recursos
+Iniciando decrease_count
+Iniciando iteracion 1
+Recursos suficientes disponibles, consumiendo...
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+105 - (!) Recurso tomado
+Iniciando decrease_count
+98 - Buenos dias! Recurso usado
+Iniciando increase_count
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 3
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+103 - (!) Recurso tomado
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+Terminando decrease_count
+98 - (!) Recurso tomado
+101 - (!) Recurso tomado
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+99 - (!) Recurso tomado
+Iniciando thread 106
+Iniciando iteracion 1
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+106 - (!) Recurso tomado
+Esperando threads
+Iniciando thread 107
+Iniciando iteracion 1
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+107 - (!) Recurso tomado
+104 - Buenos dias! Recurso usado
+98 - Buenos dias! Recurso usado
+Iniciando increase_count
+Mutex adquirido, entrando al monitor
+106 - Buenos dias! Recurso usado
+Iniciando increase_count
+103 - Buenos dias! Recurso usado
+Avisando a la mara
+Iniciando increase_count
+100 - Buenos dias! Recurso usado
+Iniciando increase_count
+101 - Buenos dias! Recurso usado
+102 - Buenos dias! Recurso usado
+Iniciando increase_count
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 2
+Mutex adquirido, entrando al monitor
+Iniciando increase_count
+Iniciando increase_count
+Se consumiran 3 recursos
+105 - Buenos dias! Recurso usado
+Iniciando decrease_count
+Iniciando increase_count
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 2
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+103 - (!) Recurso tomado
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 2
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+102 - (!) Recurso tomado
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 2
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+106 - (!) Recurso tomado
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 2
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 4
+Terminando decrease_count
+101 - (!) Recurso tomado
+Se consumiran 22 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+NUAY! Recursos actuales: 6
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+104 - (!) Recurso tomado
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 3
+103 - Buenos dias! Recurso usado
+107 - Buenos dias! Recurso usado
+Iniciando increase_count
+Se consumiran 3 recursos
+106 - Buenos dias! Recurso usado
+Iniciando increase_count
+Iniciando increase_count
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 2
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+105 - (!) Recurso tomado
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 2
+102 - Buenos dias! Recurso usado
+Mutex liberado
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+107 - (!) Recurso tomado
+Terminando increase_count
+Iniciando iteracion 3
+NUAY! Recursos actuales: 9
+Iniciando increase_count
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 3
+NUAY! Recursos actuales: 9
+Terminando decrease_count
+103 - (!) Recurso tomado
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+100 - (!) Recurso tomado
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 3
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+106 - (!) Recurso tomado
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+102 - (!) Recurso tomado
+NUAY! Recursos actuales: 3
+104 - Buenos dias! Recurso usado
+Iniciando increase_count
+107 - Buenos dias! Recurso usado
+105 - Buenos dias! Recurso usado
+103 - Buenos dias! Recurso usado
+Mutex adquirido, entrando al monitor
+Iniciando increase_count
+Avisando a la mara
+Iniciando increase_count
+Iniciando increase_count
+101 - Buenos dias! Recurso usado
+Iniciando increase_count
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+NUAY! Recursos actuales: 9
+Mutex liberado
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Terminando increase_count
+Iniciando iteracion 3
+Iniciando iteracion 3
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 4
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+104 - (!) Recurso tomado
+Mutex liberado
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Se consumiran 3 recursos
+Terminando increase_count
+Iniciando iteracion 3
+Mutex liberado
+Terminando increase_count
+NUAY! Recursos actuales: 15
+Iniciando iteracion 3
+Iniciando decrease_count
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+103 - (!) Recurso tomado
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+107 - (!) Recurso tomado
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+101 - (!) Recurso tomado
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+105 - (!) Recurso tomado
+106 - Buenos dias! Recurso usado
+Iniciando increase_count
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 4
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+106 - (!) Recurso tomado
+102 - Buenos dias! Recurso usado
+Iniciando increase_count
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+NUAY! Recursos actuales: 6
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 4
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+102 - (!) Recurso tomado
+106 - Buenos dias! Recurso usado
+Iniciando increase_count
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+105 - Buenos dias! Recurso usado
+Iniciando increase_count
+Mutex liberado
+Terminando increase_count
+Terminando thread 106
+NUAY! Recursos actuales: 6
+101 - Buenos dias! Recurso usado
+Mutex adquirido, entrando al monitor
+Iniciando increase_count
+99 - Buenos dias! Recurso usado
+Avisando a la mara
+102 - Buenos dias! Recurso usado
+Iniciando increase_count
+Iniciando increase_count
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 4
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Se consumiran 3 recursos
+NUAY! Recursos actuales: 12
+Mutex liberado
+Terminando increase_count
+Iniciando decrease_count
+Terminando thread 102
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Terminando decrease_count
+105 - (!) Recurso tomado
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 4
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 4
+Se consumiran 3 recursos
+Iniciando decrease_count
+NUAY! Recursos actuales: 15
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+101 - (!) Recurso tomado
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+99 - (!) Recurso tomado
+105 - Buenos dias! Recurso usado
+Iniciando increase_count
+101 - Buenos dias! Recurso usado
+Mutex adquirido, entrando al monitor
+Iniciando increase_count
+100 - Buenos dias! Recurso usado
+Avisando a la mara
+Iniciando increase_count
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Terminando thread 105
+NUAY! Recursos actuales: 15
+Mutex liberado
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Terminando increase_count
+Iniciando iteracion 4
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+100 - (!) Recurso tomado
+99 - Buenos dias! Recurso usado
+Mutex liberado
+Terminando increase_count
+NUAY! Recursos actuales: 15
+Iniciando increase_count
+Terminando thread 101
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+NUAY! Recursos actuales: 18
+Mutex liberado
+Terminando increase_count
+Terminando thread 99
+107 - Buenos dias! Recurso usado
+Iniciando increase_count
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 4
+104 - Buenos dias! Recurso usado
+Se consumiran 3 recursos
+NUAY! Recursos actuales: 21
+Iniciando decrease_count
+Iniciando increase_count
+103 - Buenos dias! Recurso usado
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+100 - Buenos dias! Recurso usado
+Iniciando increase_count
+Recursos suficientes disponibles, consumiendo...
+Mutex liberado
+Terminando increase_count
+Iniciando iteracion 4
+Se consumiran 3 recursos
+Iniciando decrease_count
+Mutex adquirido, entrando al monitor
+NUAY! Recursos actuales: 2
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Iniciando increase_count
+Terminando decrease_count
+98 - (!) Recurso tomado
+Recursos suficientes disponibles, consumiendo...
+Mutex adquirido, entrando al monitor
+NUAY! Recursos actuales: 2
+Terminando decrease_count
+104 - (!) Recurso tomado
+Mutex adquirido, entrando al monitor
+Mutex liberado
+Avisando a la mara
+Terminando increase_count
+Terminando thread 103
+Mutex liberado
+Terminando increase_count
+Terminando thread 100
+Recursos suficientes disponibles, consumiendo...
+Terminando decrease_count
+107 - (!) Recurso tomado
+104 - Buenos dias! Recurso usado
+Iniciando increase_count
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Terminando thread 104
+107 - Buenos dias! Recurso usado
+98 - Buenos dias! Recurso usado
+Iniciando increase_count
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Terminando thread 98
+Iniciando increase_count
+Mutex adquirido, entrando al monitor
+Avisando a la mara
+Mutex liberado
+Terminando increase_count
+Terminando thread 107
+Fertig!
