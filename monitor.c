@@ -1,57 +1,93 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-#include <semaphore.h>
-#include <time.h>
 #include <unistd.h>
+#include <time.h>
+#include <stdarg.h>
 
-// Variables globales
-int recursos;
-int iteraciones;
-sem_t semaforo_recursos;
+#define NUM_THREADS 10
+#define NUM_ITERATIONS 5
+#define RESOURCE_COUNT 10
 
-// Método que ejecutarán los threads
-void *consumir_recurso(void *arg) {
-    int cantidad_recursos = *((int *) arg);
-    for (int i = 0; i < iteraciones; i++) {
-        for (int j = 0; j < cantidad_recursos; j++) {
-            sem_wait(&semaforo_recursos); // Decrementa la cantidad de recursos disponibles
-        }
-        printf("Thread %lu consume %d recursos. Recursos restantes: %d\n", pthread_self(), cantidad_recursos, recursos - cantidad_recursos);
-        int tiempo_espera = rand() % 3 + 1;
-        sleep(tiempo_espera);
-        printf("Thread %lu devuelve %d recursos tras %d segundos\n", pthread_self(), cantidad_recursos, tiempo_espera);
-        for (int j = 0; j < cantidad_recursos; j++) {
-            sem_post(&semaforo_recursos); // Incrementa la cantidad de recursos disponibles
-        }
+pthread_mutex_t resource_mutex;
+pthread_mutex_t log_mutex;
+pthread_cond_t resource_cond;
+int available_resources = RESOURCE_COUNT;
+
+void print_log(const char *format, ...) {
+    va_list args;
+    va_start(args, format);
+    pthread_mutex_lock(&log_mutex);
+    vprintf(format, args);
+    pthread_mutex_unlock(&log_mutex);
+    va_end(args);
+}
+
+int decrease_count(int count) {
+    print_log("Iniciando decrease_count\n");
+    pthread_mutex_lock(&resource_mutex);
+    print_log("Mutex adquirido, entrando al monitor\n");
+    while (available_resources < count) {
+        pthread_cond_wait(&resource_cond, &resource_mutex);
+    }
+    print_log("Recursos suficientes disponibles, consumiendo...\n");
+    available_resources -= count;
+    pthread_mutex_unlock(&resource_mutex);
+    print_log("Terminando decrease_count\n");
+    return 0;
+}
+
+int increase_count(int count) {
+    print_log("Iniciando increase_count\n");
+    pthread_mutex_lock(&resource_mutex);
+    print_log("Mutex adquirido, entrando al monitor\n");
+    available_resources += count;
+    pthread_cond_broadcast(&resource_cond);
+    pthread_mutex_unlock(&resource_mutex);
+    print_log("Mutex liberado\n");
+    print_log("Terminando increase_count\n");
+    return 0;
+}
+
+void *thread_function(void *arg) {
+    long thread_id = (long)arg;
+    print_log("Iniciando thread %ld\n", thread_id);
+    for (int i = 0; i < NUM_ITERATIONS; i++) {
+        print_log("Iniciando iteracion %d\n", i + 1);
+        int resources_needed = rand() % RESOURCE_COUNT + 1;
+        print_log("Se consumiran %d recursos\n", resources_needed);
+        decrease_count(resources_needed);
+        print_log("%ld - (!) Recurso tomado\n", thread_id);
+
+        int sleep_time = rand() % 3;
+        sleep(sleep_time); // Simular trabajo
+
+        print_log("%ld - Buenos dias! Recurso usado\n", thread_id);
+        increase_count(resources_needed);
     }
     return NULL;
 }
 
-int main(int argc, char *argv[]) {
-    if (argc != 4) {
-        printf("Uso: %s [numero_de_threads] [iteraciones_por_thread] [recursos_por_thread]\n", argv[0]);
-        return 1;
-    }
-
-    int num_threads = atoi(argv[1]);
-    iteraciones = atoi(argv[2]);
-    int recursos_por_thread = atoi(argv[3]);
-    recursos = num_threads * recursos_por_thread;
-    pthread_t threads[num_threads];
-
+int main() {
     srand(time(NULL));
-    sem_init(&semaforo_recursos, 0, recursos);
+    pthread_t threads[NUM_THREADS];
+    pthread_mutex_init(&resource_mutex, NULL);
+    pthread_mutex_init(&log_mutex, NULL);
+    pthread_cond_init(&resource_cond, NULL);
 
-    for (int i = 0; i < num_threads; i++) {
-        pthread_create(&threads[i], NULL, consumir_recurso, (void *)&recursos_por_thread);
+    print_log("Iniciando programa\n");
+    print_log("Creando threads\n");
+
+    for (long i = 0; i < NUM_THREADS; i++) {
+        pthread_create(&threads[i], NULL, thread_function, (void *)i);
     }
 
-    for (int i = 0; i < num_threads; i++) {
+    for (int i = 0; i < NUM_THREADS; i++) {
         pthread_join(threads[i], NULL);
     }
 
-    sem_destroy(&semaforo_recursos);
-
+    pthread_mutex_destroy(&resource_mutex);
+    pthread_mutex_destroy(&log_mutex);
+    pthread_cond_destroy(&resource_cond);
     return 0;
 }
